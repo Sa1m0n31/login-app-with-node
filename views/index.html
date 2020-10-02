@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nodelogin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <div class="circle">or</div>
+        <form method="post" action="auth">
+            <h1>Log in</h1>
+            <label>
+                <input type="text" name="login" class="login" placeholder="Login" />
+            </label>
+            <label>
+                <input type="password" name="password" class="password" placeholder="Password" />
+            </label>
+            <button type="submit" class="submit-btn">Log in</button>
+            <div class="register-info">
+                <p>Doesn't have account yet? <a href="/register">Sign up</a></p>
+            </div>
+        </form>
+        <div class="photo">
+            <img src="img/form.jpg" alt="Form" />
+            <div class="social-network">
+                <h1>Log in with social network</h1>
+                <button class="google-btn">Sign up with Google</button>
+                <button class="facebook-btn">Sign up with Facebook</button>
+                <button class="github-btn">Sign up with Github</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

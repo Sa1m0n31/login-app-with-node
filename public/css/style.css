@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #dddddd;
+}
+
+.container .form-container {
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: #ffffff;
+}
+
+.container .form-container h1 {
+    color: #363636;
+}
+
+.container .form-container > * {
+    width: 50%;
+    height: 100%;
+}
+
+.container .form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container .form-container label {
+    width: 55%;
+}
+
+.container .form-container input {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #aaa;
+}
+
+.container .form-container .submit-btn {
+    background-color: #16A085;
+    color: white;
+    height: 40px;
+    width: 40%;
+    font-weight: 900;
+}
+
+.container .form-container .submit-btn:hover {
+    background-color: #059074;
+}
+
+.container .form-container .photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .form-container .photo img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container .form-container .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #aaaaaa;
+    color: #363636;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.container .form-container .social-network {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80%;
+}
+
+.social-network button {
+    font-family: Roboto, sans-serif;
+    margin: 50px 0;
+    height: 50px;
+    width: 70%;
+    color: #ffffff;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.facebook-btn:hover {
+    background-color: #2a4887;
+}
+
+.google-btn {
+    background-color: #dd4b39;
+}
+
+.google-btn:hover {
+    background-color: #cc3a28;
+}
+
+.github-btn {
+    background-color: #24292E;
+}
+
+.github-btn:hover {
+    background-color: #13181d;
+}
+
+/* USER CREATED, HOME */
+
+.container .user-created-btn, .container .logout-btn {
+    width: 300px;
+    height: 50px;
+    margin: 100px 0;
+}
+
+.container .user-created-btn a, .container .logout-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #16A085;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
